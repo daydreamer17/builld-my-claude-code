@@ -1,5 +1,5 @@
 # 前言 <del>（笔者的碎碎念）</del>
-> 2026年3月31日,因为Anthropic公司的一次上传失误,泄露了当前市面上最强的coding agent-Claude Code CLI的源码,一时间引起AI 开发圈和工业界的"狂欢",正好笔者最近正在学习Agent开发和LLM Systems相关的知识,这样一个工业级别的顶级Agent应用无疑是一份学习多agent编排、上下文工程、skills和mcp集成等在agent开发中重要部分的最好材料,而对于如此的庞大代码量,光靠人工来一行行理解无疑是不现实的,所以怀着激动和兴奋的心情,我决定使用Codex和Claude Code这两个工具,为我逐步拆分分析这个项目的技术细节并记录在这个仓库当中,并考虑后续基于这个项目来进行跑通源码和二次开发
+> 2026年3月31日,因为Anthropic公司的一次上传失误,泄露了当前市面上最强的coding agent-Claude Code CLI的源码,一时间引起AI 开发圈和工业界的"狂欢",正好笔者最近正在学习Agent开发和LLM Systems相关的知识,这样一个工业级别的顶级Agent应用无疑是一份学习多agent编排、上下文工程、skills和mcp集成等在agent开发中重要部分的最好材料,而对于如此的庞大代码量,光靠人工来一行行理解无疑是不现实的,所以怀着激动和兴奋的心情,我决定使用Codex和Claude Code这两个工具,为我逐步拆分分析这个项目的技术细节并记录在这个仓库当中,并考虑后续基于这个项目来进行跑通源码和二次开发。感谢['how-claude-code-works'仓库](https://github.com/Windy3f3f3f3f/how-claude-code-works.git)所提供的详细解读，本报告基于仓库中所提出的十一个专题来进行个人的学习
 
 # Claude Code CLI 源码专题分析报告
 
